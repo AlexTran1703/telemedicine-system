@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECG image {{ result_id }}</title>
+</head>
+<body>
+    <img src="{{ url_for('serve_image', filename=image_url) }}" alt="Result Image">
+</body>
+</html>
